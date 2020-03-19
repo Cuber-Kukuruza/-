@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(345.png);
+  position: relative;
 }
 header {
   width: 100%;
@@ -95,11 +96,14 @@ article {
 }
 
 footer {
-  position: fixed; /* Фиксированное положение */
-  left: 0; bottom: 0; /* Левый нижний угол */
-  padding: 10px; /* Поля вокруг текста */
-  width: 100%; /* Ширина слоя */
-  background-image: url(./1.jpg);
+  position: absolute; 
+  left: 0; bottom: 0; 
+  padding: 5px; 
+  width: 100%; 
+  height: 55px;
+  background-image: url(./567.jpg);
+  
+  
 }
 
 a_dima_footer{
