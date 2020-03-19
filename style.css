@@ -2,12 +2,14 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(345.png);
-  position: relative;
+
+}
+.all{
+	flex: 1 0 auto;
 }
 header {
   width: 100%;
   height: 75px;
-
   background-image: url(./1.jpg);
 
   display: flex;
@@ -95,13 +97,20 @@ article {
 }
 
 footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 5px;
-  width: 100%;
+
+  
+   
+  left: 0; bottom: 0; 
+  padding: 5px; 
+  width: 100%; 
   height: 55px;
   background-image: url(./567.jpg);
+  flex: 0 0 auto;
+ 
+
+  
+
+
 }
 
 .vk_footer {
