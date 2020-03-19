@@ -1,5 +1,4 @@
-head body,
-html {
+body {
   margin: 0;
   padding: 0;
   background-image: url(./777.jpg);
@@ -7,15 +6,14 @@ html {
 header {
   width: 100%;
   height: 75px;
-
-  background-image: url(./1jpg);
+  background-image: url(./1.jpg);
   display: flex;
 }
 .container {
   width: 100%;
   height: 100%;
   display: flex;
-  box-align: centre;
+  /* align: centre; */
   justify-content: space-between;
 }
 .menu {
