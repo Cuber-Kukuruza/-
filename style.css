@@ -95,13 +95,49 @@ article {
 }
 
 footer {
-  position: fixed; /* Фиксированное положение */
+  position: absolute; /* Фиксированное положение */
   left: 0; bottom: 0; /* Левый нижний угол */
   padding: 10px; /* Поля вокруг текста */
   width: 100%; /* Ширина слоя */
   background-image: url(./666.jpg);
 }
 
-a_dima_footer{
+.vk_footer{
+display: flex;
+}
 
+.text_vk_footer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+footer a{
+  text-align: left;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.img_vk_footer{
+  padding: 5px;
+}
+
+.top_text_footer{
+  display: flex;
+}
+
+.sponsor_footer{
+  display: flex;
+  padding-left: 100px;
+}
+
+.img_sponsor_footer{
+  padding: 5px;
+}
+
+.text_sponsor_footer{
+  padding-left: 25px;
+  padding-top: 20px;
+  text-align: center;
 }
