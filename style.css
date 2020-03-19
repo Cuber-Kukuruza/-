@@ -95,9 +95,13 @@ article {
 }
 
 footer {
-  position: bottom; /* Фиксированное положение */
+  position: fixed; /* Фиксированное положение */
   left: 0; bottom: 0; /* Левый нижний угол */
   padding: 10px; /* Поля вокруг текста */
   width: 100%; /* Ширина слоя */
   background-image: url(./1.jpg);
+}
+
+a_dima_footer{
+
 }
