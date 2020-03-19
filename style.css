@@ -1,9 +1,8 @@
-body,
+head body,
 html {
   margin: 0;
   padding: 0;
   background-image: url(./777.jpg);
-  
 }
 header {
   width: 100%;
@@ -16,7 +15,7 @@ header {
   width: 100%;
   height: 100%;
   display: flex;
-  align: centre;
+  box-align: centre;
   justify-content: space-between;
 }
 .menu {
