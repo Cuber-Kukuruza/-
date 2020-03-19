@@ -104,8 +104,47 @@ footer {
   background-image: url(./567.jpg);
   
   
+
+  
+
 }
 
-a_dima_footer{
+.vk_footer{
+display: flex;
+}
 
+.text_vk_footer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+}
+
+footer a{
+  text-align: left;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.img_vk_footer{
+  padding: 5px;
+}
+
+.top_text_footer{
+  display: flex;
+}
+
+.sponsor_footer{
+  display: flex;
+  padding-left: 100px;
+}
+
+.img_sponsor_footer{
+  padding: 5px;
+}
+
+.text_sponsor_footer{
+  padding-left: 25px;
+  padding-top: 20px;
+  text-align: center;
 }
