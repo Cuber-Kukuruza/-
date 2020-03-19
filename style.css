@@ -1,25 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html,body{
+html,
+body {
   height: 100%;
 }
 
-.wrapper{
+.wrapper {
   position: relative;
   min-height: 100%;
 }
 
-.content{
+.content {
   padding-bottom: 90px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url(345.png);
+  background-image: url(345png);
   background-size: cover;
 }
 
@@ -117,7 +118,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url(666.jpg);
+  background-image: url(666jpg);
 }
 
 .vk_footer {
