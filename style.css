@@ -20,7 +20,7 @@ body {
 body {
   margin: 0;
   padding: 0;
-  background-image: url(345png);
+  background-image: url(./345.png);
   background-size: cover;
 }
 
@@ -118,7 +118,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url(666jpg);
+  background-image: url(./666.jpg);
+  background-size: cover;
 }
 
 .vk_footer {
@@ -146,7 +147,7 @@ footer a {
   display: flex;
 }
 
-.sponsor_footer {
+/* .sponsor_footer {
   display: flex;
   padding-left: 100px;
 }
@@ -155,8 +156,102 @@ footer a {
   padding: 5px;
 }
 
-.text_sponsor_footer {
+.text_sponsor_footer_bottom {
   padding-left: 25px;
   padding-top: 20px;
   text-align: center;
 }
+
+.text_sponsor_footer_top{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+}
+
+.text_sponsor_footer_top_bottom{
+  text-align: center;
+}
+
+.content_sponsor_footer{
+  display: flex;
+  flex-direction: column;
+} */
+
+.sponsor_footer{
+ padding-left: 100px;
+}
+
+.content_sponsor_footer_bottom{
+  display: flex;
+}
+
+.img_sponsor_footer{
+  padding: 5px;
+}
+
+.text_sponsor_footer_bottom{
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.content_sponsor_footer_top{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.text_sponsor_footer_top_bottom{
+  text-align: center;
+}
+
+.support_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.text_support_footer{
+  text-align: center;
+  color: #fff;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.mail_footer{
+  display: flex;
+}
+
+.img_mail_footer{
+  padding: 5px;
+}
+
+.text_mail_footer{
+  padding-left: 25px;
+  display: flex;
+  padding-top: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.FAQ_footer{
+  display: flex;
+}
+
+.img_FAQ_footer{
+  padding: 5px;
+}
+
+.text_FAQ_footer{
+ padding-left: 25px;
+ display: flex;
+ padding-top: 20px;
+ color: #fff;
+ font-weight: bold;
+}
+
+
